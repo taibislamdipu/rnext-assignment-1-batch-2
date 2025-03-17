@@ -14,6 +14,10 @@
   @apply border border-red-400;
 }
 
+.tc {
+  @apply bg-red-400;
+}
+
 .sticky {
   @apply fixed z-[9999] bg-white/80 dark:bg-dark/80 transition;
   backdrop-filter: blur(5px);

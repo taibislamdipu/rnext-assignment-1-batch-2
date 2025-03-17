@@ -1,6 +1,7 @@
 import React from "react";
 
 import About from "../components/About";
+import Contact from "../components/contact/Contact";
 import CTA from "../components/CTA";
 import FAQ from "../components/faq/FAQ";
 import Features from "../components/Features/Features";
@@ -20,6 +21,7 @@ export default function HomePage() {
       <CTA />
       <FAQ />
       <Team />
+      <Contact />
     </>
   );
 }
